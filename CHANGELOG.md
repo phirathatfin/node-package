@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.7
+
+### Patch Changes
+
+- Add step to use changeset to readme
+
 ## 1.1.6
 
 ### Patch Changes
