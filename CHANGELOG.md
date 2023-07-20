@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.8
+
+### Patch Changes
+
+- c13a710: Update changeset readme
+
 ## 1.1.7
 
 ### Patch Changes
