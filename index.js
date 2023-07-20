@@ -14,3 +14,6 @@ console.log("8 * 8 = " + 8 * 8);
 
 console.log("9 + 9 = " + (9 + 9));
 console.log("10 * 10 = " + 10 * 10);
+
+console.log("11 + 11 = " + (11 + 11));
+console.log("12 * 12 = " + 12 * 12);
