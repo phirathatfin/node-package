@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.6
+
+### Patch Changes
+
+- 80dcea2: Add 5,6 in single changeset
+
 ## 1.1.5
 
 ### Patch Changes
