@@ -1,5 +1,12 @@
 # test-changeset-version
 
+## 1.1.4
+
+### Patch Changes
+
+- 4e2a89e: add 1+1
+- 4e2a89e: add 2\*2
+
 ## 1.1.3
 
 ### Patch Changes
