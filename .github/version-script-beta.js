@@ -4,7 +4,7 @@
 const { exec } = require("child_process");
 const fs = require("fs");
 
-const pkgJsonPath = "package.json";
+const pkgJsonPath = "./package.json";
 try {
   const pkg = JSON.parse(fs.readFileSync(pkgJsonPath));
   exec("git rev-parse --short HEAD", (err, stdout) => {
