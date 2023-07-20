@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.10
+
+### Patch Changes
+
+- 15ed861: Add 11,12
+
 ## 1.1.9
 
 ### Patch Changes
