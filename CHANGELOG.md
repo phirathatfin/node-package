@@ -1,5 +1,13 @@
 # test-changeset-version
 
+## 1.1.8
+
+### Patch Changes
+
+- be6db81: Add 7,8 changeset
+- 6cf453e: Add todo in readme
+- c13a710: Update changeset readme
+
 ## 1.1.7
 
 ### Patch Changes
