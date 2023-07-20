@@ -12,8 +12,8 @@ npm install
 
 ### Usage with changeset
 
-- modify codes
+- modify code
 - run `npx changeset` to create a changeset
-- commit codes
+- commit code
 - run `npx changeset version` to bump version
-- commit codes and push to remote
+- commit code and push to remote
