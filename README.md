@@ -17,3 +17,7 @@ npm install
 - commit code
 - run `npx changeset version` to bump version
 - commit code and push to remote
+
+### Todo
+
+- [ ] Add github action
