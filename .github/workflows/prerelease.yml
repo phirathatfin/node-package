@@ -19,6 +19,9 @@ jobs:
           node-version: 16
           cache: "npm"
 
+      - name: Install NPM Dependencies
+        run: npm install
+
       - name: Modify package.json version
         run: node .github/version-script-beta.js
 
