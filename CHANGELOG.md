@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.5
+
+### Patch Changes
+
+- ef29969: Add 3,4
+
 ## 1.1.4
 
 ### Patch Changes
