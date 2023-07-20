@@ -28,6 +28,6 @@ jobs:
         with:
           commit: "chore(release): version packages"
           title: "chore(release): version packages"
-          # version: "npm run version"
+          version: "npm run version"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
