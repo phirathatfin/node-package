@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.3
+
+### Patch Changes
+
+- 7e85e58: update readme
+
 ## 1.1.2
 
 ### Patch Changes
