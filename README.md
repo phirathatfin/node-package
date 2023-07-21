@@ -30,6 +30,7 @@ and then commit the changeset
 ```
 git add .
 git commit -m "add changeset"
+git push
 ```
 
 **Not every change requires a changeset.**
