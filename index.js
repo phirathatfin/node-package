@@ -23,3 +23,6 @@ console.log("14 * 14 = " + 14 * 14);
 
 console.log("15 + 15 = " + (15 + 15));
 console.log("16 * 16 = " + 16 * 16);
+
+console.log("17 + 17 = " + (17 + 17));
+console.log("18 * 18 = " + 18 * 18);
