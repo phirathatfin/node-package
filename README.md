@@ -10,14 +10,30 @@ This is a node package template with chageset and semantic-release.
 npm install
 ```
 
-### Usage with changeset
+### Implement your changes
 
-- modify code
-- run `npx changeset` to create a changeset
-- commit code
-- run `npx changeset version` to bump version
-- commit code and push to remote
+After make some changes to code, then commit
 
-### Todo
+```
+git add .
+git commit -m "commit message"
+```
 
-- [ ] Add github action
+If your changes need to be in changelog, then run
+
+```
+npx changeset
+```
+
+and then commit the changeset
+
+```
+git add .
+git commit -m "add changeset"
+```
+
+**Not every change requires a changeset.**
+
+> Since changesets are focused on releases and changelogs, changes to your repository that don't require these won't need a changeset. As such, we recommend not adding a blocking element to contributions in the absence of a changeset.
+
+When all that's done, create a pull request.
