@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.13
+
+### Patch Changes
+
+- 340eb64: remove prerelease action
+
 ## 1.1.12
 
 ### Patch Changes
