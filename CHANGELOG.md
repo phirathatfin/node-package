@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.12
+
+### Patch Changes
+
+- 9c23587: test private package
+
 ## 1.1.11
 
 ### Patch Changes
