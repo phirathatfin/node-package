@@ -6,6 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Linting...\"",
+    "build": "echo \"Building...\"",
     "version": "npx changeset version",
     "publish": "npx changeset publish"
   },

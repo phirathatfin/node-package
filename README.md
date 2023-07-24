@@ -10,9 +10,13 @@ This is a node package template with chageset and semantic-release.
 npm install
 ```
 
-### Implement your changes
+### Versioning
 
-After make some changes to code you can commit it, But if your changes need to be in changelog, then run before commit:
+When adding a new feature, bug fix, or other change, you'll need to create a changeset.
+
+> **NOTE**
+>
+> Only changes to the codebase that affect the public API or existing behavior (e.g. bugs) need changesets.
 
 ```
 npx changeset
@@ -27,7 +31,3 @@ git push
 ```
 
 When all that's done, create a pull request.
-
-**Not every change requires a changeset.**
-
-> Since changesets are focused on releases and changelogs, changes to your repository that don't require these won't need a changeset. As such, we recommend not adding a blocking element to contributions in the absence of a changeset.
