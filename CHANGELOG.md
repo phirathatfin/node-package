@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.1.14
+
+### Patch Changes
+
+- b253bbc: Add code check action
+
 ## 1.1.13
 
 ### Patch Changes
