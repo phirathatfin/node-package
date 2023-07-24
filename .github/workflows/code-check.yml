@@ -4,6 +4,8 @@ on:
   pull_request:
     branches: ["*"]
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   codecheck:
     name: Code check
