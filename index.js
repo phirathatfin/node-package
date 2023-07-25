@@ -31,3 +31,6 @@ console.log("19 + 19 = " + (19 + 19));
 console.log("20 * 20 = " + 20 * 20);
 
 console.log("Fixing the bug");
+
+console.log("21 + 21 = " + (21 + 21));
+console.log("22 * 22 = " + 22 * 22);
