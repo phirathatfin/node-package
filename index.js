@@ -34,3 +34,5 @@ console.log("Fixing the bug");
 
 console.log("21 + 21 = " + (21 + 21));
 console.log("22 * 22 = " + 22 * 22);
+
+console.log("Fix bug by NUT");
