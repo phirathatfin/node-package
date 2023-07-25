@@ -26,3 +26,6 @@ console.log("16 * 16 = " + 16 * 16);
 
 console.log("17 + 17 = " + (17 + 17));
 console.log("18 * 18 = " + 18 * 18);
+
+console.log("19 + 19 = " + (19 + 19));
+console.log("20 * 20 = " + 20 * 20);
