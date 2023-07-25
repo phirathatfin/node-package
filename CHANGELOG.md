@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.2.1
+
+### Patch Changes
+
+- 8d76faf: Fix addition bug
+
 ## 1.2.0
 
 ### Minor Changes
