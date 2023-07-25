@@ -1,5 +1,15 @@
 # test-changeset-version
 
+## 1.2.0
+
+### Minor Changes
+
+- 099dfa8: Fixing some bugs, bug 1, bug 2
+
+### Patch Changes
+
+- d3f959e: Add some logs
+
 ## 1.1.14
 
 ### Patch Changes
