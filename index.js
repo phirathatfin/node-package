@@ -2,8 +2,13 @@ const express = require("express");
 
 const app = express();
 
+const lastUpdated = new Date();
+
 app.get("/", (req, res) => {
-  res.send("Node package versioning!");
+  res.send({
+    data: "Nodejs package versioning",
+    lastUpdated,
+  });
 });
 
 app.listen(3000, () => {
