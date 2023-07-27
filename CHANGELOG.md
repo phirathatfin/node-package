@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.1
+
+### Patch Changes
+
+- 993a654: Rename task def
+
 ## 2.1.0
 
 ### Minor Changes
