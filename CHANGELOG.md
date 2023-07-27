@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 1.3.0
+
+### Minor Changes
+
+- f4a1726: Add build image and push to ERC
+
 ## 1.2.1
 
 ### Patch Changes
