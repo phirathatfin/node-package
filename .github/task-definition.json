@@ -1,5 +1,5 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:635629923495:task-definition/docker-versioning:5",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:635629923495:task-definition/docker-versioning:8",
   "containerDefinitions": [
     {
       "name": "docker-versioning",
@@ -33,7 +33,7 @@
   "family": "docker-versioning",
   "taskRoleArn": "arn:aws:iam::635629923495:role/ecsTaskExecutionRole",
   "executionRoleArn": "arn:aws:iam::635629923495:role/ecsTaskExecutionRole",
-  "revision": 5,
+  "revision": 8,
   "volumes": [],
   "status": "ACTIVE",
   "requiresAttributes": [
@@ -68,7 +68,7 @@
     "cpuArchitecture": "X86_64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2023-07-27T04:52:30.079Z",
+  "registeredAt": "2023-07-27T09:58:52.861Z",
   "registeredBy": "arn:aws:iam::635629923495:user/play-supanut.p",
   "tags": []
 }
