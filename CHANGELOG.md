@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.0.0
+
+### Major Changes
+
+- fd57e82: Add express
+
 ## 1.3.0
 
 ### Minor Changes
