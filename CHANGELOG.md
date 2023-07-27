@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.0.1
+
+### Patch Changes
+
+- a645e94: Update response message
+
 ## 2.0.0
 
 ### Major Changes
