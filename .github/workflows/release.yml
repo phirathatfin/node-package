@@ -45,6 +45,7 @@ jobs:
     name: Build Docker Image and Push to ECR
     runs-on: ubuntu-latest
     needs: release
+    if: needs.release.outputs.published == 'true'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -80,8 +81,6 @@ jobs:
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           IMAGE_TAG: ${{ steps.package-version.outputs.current-version }}
-          PUBLISHED: ${{needs.release.outputs.published}}
-        if: env.PUBLISHED == 'true'
         run: |
           # Build a docker container and
           # push it to ECR so that it can
