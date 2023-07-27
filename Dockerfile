@@ -1,3 +1,11 @@
-FROM alpine
+FROM node:alpine-18
 
-CMD ["echo", "Hello Docker!"]
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD [ "node", "index.js" ]
