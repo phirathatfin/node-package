@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.3
+
+### Patch Changes
+
+- debba2e: Update endpoint
+
 ## 2.1.2
 
 ### Patch Changes
