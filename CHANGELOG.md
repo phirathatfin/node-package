@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.0
+
+### Minor Changes
+
+- 8d841df: Add deploy to ecs
+
 ## 2.0.1
 
 ### Patch Changes
