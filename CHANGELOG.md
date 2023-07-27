@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.2
+
+### Patch Changes
+
+- 96f7695: Update task def
+
 ## 2.1.1
 
 ### Patch Changes
