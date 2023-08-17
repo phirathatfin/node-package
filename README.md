@@ -12,6 +12,11 @@ npm install
 
 ### Versioning
 
+create a personal access token and then use it on `GITHUB_TOKEN`
+add link [More info](https://github.com/orgs/community/discussions/27028#discussioncomment-3254360)
+
+---
+
 When adding a new feature, bug fix, or other change, you'll need to create a changeset.
 
 > **NOTE**
