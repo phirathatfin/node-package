@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.5
+
+### Patch Changes
+
+- 9fe6cf5: Update release ci
+
 ## 2.1.4
 
 ### Patch Changes
