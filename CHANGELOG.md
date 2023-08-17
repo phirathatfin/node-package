@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.7
+
+### Patch Changes
+
+- 6e3ff49: Log pacakge version
+
 ## 2.1.6
 
 ### Patch Changes
