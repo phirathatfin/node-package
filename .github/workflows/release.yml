@@ -11,8 +11,13 @@ jobs:
     name: Deploy to AWS
     runs-on: ubuntu-latest
     steps:
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
         run: |
           # Build a docker container and
           echo ${{ github.event.release.tag_name }}
+          echo "Package Version: ${{ steps.package-version.outputs.current-version }}"
