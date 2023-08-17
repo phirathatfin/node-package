@@ -2,7 +2,9 @@
 
 ### Description
 
-This is a node package template with chageset and semantic-release.
+This is a node package with Github Action, Changeset, AWS ECS
+<img width="1132" alt="Screenshot 2023-08-17 at 16 15 43" src="https://github.com/phirathatfin/node-package/assets/136427146/6008f43e-19d3-4522-9c6d-2d776f2de4f3">
+
 
 ### Getting Started
 
