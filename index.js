@@ -6,7 +6,7 @@ const lastUpdated = new Date();
 
 app.get("/", (req, res) => {
   res.send({
-    data: "Nodejs package versioning",
+    data: "Nodejs package versioning with changeset",
     lastUpdated,
   });
 });
