@@ -3,7 +3,7 @@ name: Release PR
 on:
   push:
     branches:
-      - main
+      - mainx
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
