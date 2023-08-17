@@ -19,7 +19,7 @@ env:
 
 jobs:
   aws:
-    name: Create a PR for release workflow
+    name: Build image
     runs-on: ubuntu-latest
     outputs:
       built: ${{ steps.build-image.outputs.built }}
