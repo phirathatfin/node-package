@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.9
+
+### Patch Changes
+
+- 94e4c8b: Remove endpoint
+
 ## 2.1.8
 
 ### Patch Changes
