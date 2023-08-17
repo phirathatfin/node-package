@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.8
+
+### Patch Changes
+
+- 9a38f2f: Add checkout repo
+
 ## 2.1.7
 
 ### Patch Changes
