@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.4
+
+### Patch Changes
+
+- 9b73b6d: Update release ci flow
+
 ## 2.1.3
 
 ### Patch Changes
