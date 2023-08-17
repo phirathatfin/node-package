@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.6
+
+### Patch Changes
+
+- 4c6ecc7: Use personal access token instead of GITHUB_TOKEN
+
 ## 2.1.5
 
 ### Patch Changes
