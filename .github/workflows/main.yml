@@ -1,15 +1,15 @@
-name: Release PR
+name: Main
 
 on:
   push:
     branches:
-      - mainx
+      - main
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
-    name: Create a PR for release workflow
+  main:
+    name: Create Release Pull Request or Publish
     runs-on: ubuntu-latest
     outputs:
       published: ${{ steps.changesets.outputs.published }}
@@ -29,5 +29,7 @@ jobs:
       - name: Create Version PR or Publish
         id: changesets
         uses: changesets/action@v1.4.1
+        with:
+          publish: npx changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
