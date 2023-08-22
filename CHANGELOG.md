@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.11
+
+### Patch Changes
+
+- 8ea8248: Update ci flow
+
 ## 2.1.10
 
 ### Patch Changes
