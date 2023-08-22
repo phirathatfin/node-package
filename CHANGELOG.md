@@ -1,5 +1,11 @@
 # test-changeset-version
 
+## 2.1.10
+
+### Patch Changes
+
+- 356fc14: Update release ci
+
 ## 2.1.9
 
 ### Patch Changes
