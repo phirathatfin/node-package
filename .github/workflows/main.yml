@@ -29,7 +29,5 @@ jobs:
       - name: Create Version PR
         id: changesets
         uses: changesets/action@v1.4.1
-        with:
-          publish: npx changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
