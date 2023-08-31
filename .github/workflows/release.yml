@@ -24,26 +24,3 @@ jobs:
           # Build a docker container and
           echo ${{ github.event.release.tag_name }}
           echo "Package Version: ${{ steps.package-version.outputs.current-version }}"
-  publish:
-    name: Publish
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: "npm"
-
-      - name: Install NPM Dependencies
-        run: npm install
-
-      - name: Publish
-        id: changesets
-        uses: changesets/action@v1.4.1
-        with:
-          publish: npx changeset publish
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}

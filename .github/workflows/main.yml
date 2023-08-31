@@ -11,8 +11,6 @@ jobs:
   main:
     name: Create Release Pull Request
     runs-on: ubuntu-latest
-    outputs:
-      published: ${{ steps.changesets.outputs.published }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -26,8 +24,10 @@ jobs:
       - name: Install NPM Dependencies
         run: npm install
 
-      - name: Create Version PR
+      - name: Create Version PR or Publish
         id: changesets
         uses: changesets/action@v1.4.1
+        with:
+          publish: npx changeset publish
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT }} # Use a personal access token instead of GITHUB_TOKEN for actions
